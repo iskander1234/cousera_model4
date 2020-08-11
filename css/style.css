@@ -1,6 +1,28 @@
-h2{
-  text-align: center;
+.blend{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.script{
-  text-align: center;
+.blend img{
+	position: absolute;
+}
+.blend h1{
+	font-size: 50px;
+	mix-blend-mode: overlay;
+}
+.promo-wrapper{
+	background: #eee;
+	padding: 20px;
+	margin: 15px 0;
+}
+
+.decsription_slider{
+	font-size: 40px;
+	color: white;
+}
+
+.heading_slider{
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 2px pink;
 }

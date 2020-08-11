@@ -1,17 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Layout</title>
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Хачапури</title>
 </head>
 <body>
-    <h2>Modul 4</h2>
 
-    <div class="script">
-        <script src="js/script.js"></script>
-    </div>
-</body>
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+			<div class="container">
+
+				<a class="navbar-brand " href="#">Хачапури</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	</div>
+
+		<div class="container">
+			<h4 style="
+			position: absolute;
+			margin-left: 15%;
+			margin-top: 50%;">Служба доставки: +7 (707) 123 62 68</h4>
+			<img src="image/HachAndPlov.jpg" alt="" class="w-100" >
+		</div>
+	
+	<div class="carousel-main mt-3 mb-3">
+		<div class="container">
+			<div class="bd-example">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="image/mgrh2.jpg" class="d-block w-100 img_abs relative" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<div class="slide-item text-dark">
+									<h4 class="decsription_slider">Хачапури по-мегрельски</h4>
+									<p class="heading_slider">Хачапури по-мегрельски — один из видов грузинского хачапури. Его форма — круглая, в качестве начинки — сыр, чем его больше, тем выпечка вкуснее.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="image/ajar.jpg" class="d-block w-100 img_abs" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<div class="slide-item text-dark">
+									<h4 class="decsription_slider">Хачапури по-аджарски</h4>
+									<p class="heading_slider">Хачапури по-аджарски с растопленным сыром сулугуни. Хачапури по-аджарски, сразу из печи, ароматные, с растопленным сыром сулугуни и нежным хрустящим краешком горячего испеченного хачапури. Отломите кусочек, окуните его в сыр сдобренный маслом и куриным яйцом, а потом попробуйте отказаться от следующего кусочка, поверьте, это сделать невозможно. Приятного аппетита!</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="image/plov.jpg" class="d-block w-100 img_abs" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+
+								<div class="slide-item text-dark">
+									<h4 class="decsription_slider">Узбекский плов в казане</h4>
+									<p class="heading_slider">Самый популярный вид плова - узбекский плов в казане. В кастрюле или чугунке, конечно, плов тоже можно приготовить. Но именно в казане получается настоящий узбекский плов, которым не стыдно будет угостить даже знатока узбекской кухни. Хотя рецептов плова - сотни, если не тысячи и у каждого кулинара - свой верный способ приготовления этого блюда и свои поварские хитрости.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sevises">
+		<div class="container">
+			<h2 class="pb-3 border-bottom">Наши блюда будут доставлены в короткие сроки, "с пылу с жару".</h2>
+			<div class="mb-2 pt-3">	
+				<div class="row no-gutters">
+					<div class="col-md-6 col-sm-12">
+						<div class="card-body">
+							<ul class="item-1 mr-5">
+								<li class="item h5">Доставка еды</li>
+								<li class="item">Сделайте свой заказ по телефонам:</li>
+								<li class="item"> 8 (707) 123 62 68</li>
+							</ul>
+							<p class="">
+								Закажите любое блюдо из меню и наши курьеры 
+								доставят Вам его, в самые кратчайшие сроки!
+							</p>
+						</div>   
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<img src="image/img4.jpg" class="w-100 " alt="...">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="promo">
+		<div class="container">
+			<div class="border-top pb-1">
+				<div class="promo-wrapper ">
+				<div class="row no-gutters">
+						<div class="col-md-8 col-sm-6">
+							<p class="description">Мы принимаем заказы с 10.00 до 20.00;
+								Доставка осуществляется по г.Алматы
+								instagram: @hachapuri_me</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<a href="https://www.instagram.com/hachapuri_me/" class="btn btn btn-light d-flex justify-content-around center">Перейти</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+	<div class="footer ">
+	<div class="container">
+	<div class="description border-top pb-5">
+		<h6 class="pt-5">© Хачапури 2020</h6>
+	</div>
+	</div>
+	</div>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/da98b7b9db.js" crossorigin="anonymous"></script>
+	</body>
 </html>
